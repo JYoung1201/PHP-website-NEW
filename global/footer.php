@@ -1,4 +1,5 @@
 <footer class="footer">
+
     <p>&copy; <?php echo date("Y"); ?> Breakthru Beverages</p>
     <p>Last Modified: <?php echo date("Y-m-d H:i:s", filemtime(__FILE__)); ?></p>
     <p>

@@ -60,16 +60,19 @@
 
         .content {
             padding: 20px;
+
         }
 
         .footer {
+            margin-top: 50px;
             background-color: #333; /* Dark gray background color */
             color: #fff; /* White text color */
             text-align: center;
             padding: 10px;
-            position: fixed;
+            position: relative; /* Position */
             bottom: 0;
             width: 100%;
+
         }
     </style>
    

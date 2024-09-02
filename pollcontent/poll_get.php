@@ -107,3 +107,4 @@
 </body>
 </html>
 
+<?php include '../global/footer.php'; ?>

@@ -55,3 +55,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Include any additional footer or closing tags if necessary
 ?>
+<?php include '../global/footer.php'; ?>
