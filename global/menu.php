@@ -15,10 +15,9 @@
             <li><a href="about.php">About Us</a></li>
             <li><a href="phpinfo.php">PHP Info</a></li>
             <li><a href="contact.php">Contact Us</a></li>
-            <li><a href="variablesnew.php">week 1 variables </a></li>
-            <li><a href="module1variables.php">Module 1: Week 1 Foundations </a></li>
-            <li><a href="module2.php">Module 1: Week 1 Variables</a></li>
-            <li><a href="module3.php">Module 2: Week 2 Forms</a></li>
+            <li><a href="variablesnew.php">Week 1 variables </a></li>
+            <li><a href="module2.php">Module 2: Forms</a></li>
+            <li><a href="module3.php">Placeholder</a></li>
             <li><a href="module4.php">Module 3: Week 3 Arrays</a></li>
             <li><a href="week4sessions.php">Module 4: Week 4 Sessions</a></li>
            
