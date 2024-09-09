@@ -20,7 +20,9 @@
             <a href="profiles\michael_johnson.php">Michael Johnson</a>
         </li>
     </ul>
-    <p>Last Modified: <?php echo date("Y-m-d H:i:s", filemtime(__FILE__)); ?></p>
+    <form action="module3.php">
+        <button type="submit">Update Organizational Chart</button>
+    </form>
   </main>
   <?php include 'global/footer.php'; ?>
 

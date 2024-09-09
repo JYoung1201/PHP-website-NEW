@@ -1,17 +1,8 @@
-<?php
-session_start();
 
-if (!isset($_SESSION['user'])) {
-    header('Location: login.php');
-    exit;
-}
-?>
 <?php include 'global/header.php'; ?>
 <?php include 'global/menu.php'; ?>
   <main class="content">
-    <h2>Module 1: Variables</h2>
-    <p>This page will contain content related to Module 1 of the Web Development Foundations course.</p>
-    <!-- Include organizational chart -->
+    
     <h3>Organizational Chart</h3>
     <ul>
         <li>

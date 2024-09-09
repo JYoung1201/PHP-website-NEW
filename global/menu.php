@@ -17,7 +17,6 @@
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="variablesnew.php">Week 1 variables </a></li>
             <li><a href="module2.php">Module 2: Forms</a></li>
-            <li><a href="module3.php">Placeholder</a></li>
             <li><a href="module4.php">Module 3: Week 3 Arrays</a></li>
             <li><a href="week4sessions.php">Module 4: Week 4 Sessions</a></li>
            
@@ -25,7 +24,7 @@
    >
             <li><a href="week6.php">Module 6: Week 6 Database</a></li>
             <li><a href="week8.php">Module 8: Week 8 CMS Database</a></li>
-
+          
 
 
         </ul>
