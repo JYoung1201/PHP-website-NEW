@@ -23,6 +23,7 @@
             margin: 0;
             padding: 0;
             background-color: #f0f0f0; /* Light gray background color */
+            margin-bottom: 250px; /* Adjust the value as needed to create space for the footer */
         }
 
         .header {
@@ -69,7 +70,7 @@
             color: #fff; /* White text color */
             text-align: center;
             padding: 10px;
-            position: relative; /* Position */
+            position: fixed; /* Position */
             bottom: 0;
             width: 100%;
 
