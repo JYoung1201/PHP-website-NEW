@@ -1,5 +1,5 @@
 //This is the page to login from. If you are already logged in, it will redirect you to the organizational chart page
-<?phpf
+<?php
 session_start();
 if (isset($_SESSION['user'])) {
     header('Location: variablesnew.php'); // Redirect if already logged in
