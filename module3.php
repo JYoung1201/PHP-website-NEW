@@ -1,3 +1,11 @@
+//This code updated the organizational chart
+
+
+
+<?php
+include 'session_check.php';
+check_session();
+?>
 <?php include 'global/header.php'; ?>
 <?php include 'global/menu.php'; ?>
 <body>

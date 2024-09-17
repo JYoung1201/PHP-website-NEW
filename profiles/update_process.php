@@ -1,4 +1,9 @@
 <?php
+include '../session_check.php';
+check_session();
+?>
+
+<?php
 // Validate form inputs
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $person = $_POST["person"];

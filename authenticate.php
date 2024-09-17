@@ -1,22 +1,19 @@
 <?php
 session_start();
 
-$username = $_POST['username'] ?? '';
-$password = $_POST['password'] ?? '';
+$username = htmlspecialchars($_POST['username'] ?? '');
+$password = htmlspecialchars($_POST['password'] ?? '');
 
-// Define user credentials
+// Define user credentials with hashed passwords
 $credentials = [
-    'admin' => 'admin',
-    'publisher' => 'publisher',
-    'customer' => 'customer'
+    'customer' => password_hash('customer', PASSWORD_DEFAULT) // Hashed password for 'customer'
 ];
 
-if (isset($credentials[$username]) && $password === $credentials[$username]) {
+if (isset($credentials[$username]) && password_verify($password, $credentials[$username])) {
     $_SESSION['user'] = $username;
-    $_SESSION['role'] = $username; // Storing the role in the session
 
-    // Redirect to the stored URL or default to a specific page if not set
-    $redirectUrl = $_SESSION['redirect_to'] ?? 'products.php';
+    // Redirect to the stored URL or default to the organizational chart page if not set
+    $redirectUrl = $_SESSION['redirect_to'] ?? 'variablesnew.php';
     unset($_SESSION['redirect_to']); // Clear the stored URL to prevent reuse
     header('Location: ' . $redirectUrl);
     exit;

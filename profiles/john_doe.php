@@ -1,4 +1,9 @@
 <?php
+include '../session_check.php';
+check_session();
+?>
+
+<?php
 // Include variables.php to access the variables
 include 'variables.php';
 ?>
